@@ -5,6 +5,16 @@
   "author": "Aiden Bai",
   "license": "MIT",
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs  server.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ioredis": "^5.3.1",
+    "koa": "^2.14.1",
+    "mysql2": "^3.1.2"
+  },
+  "devDependencies": {
+    "rome": "^11.0.0"
   }
 }
